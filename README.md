@@ -31,7 +31,7 @@ contrast_margin(cutout_emb, text_emb, claimed)   # this one,           AUC 0.73
 pip install -e .
 ```
 
-Requires numpy, scipy and scikit-learn. No deep learning framework: this
+Requires numpy, pandas, scipy and scikit-learn. No deep learning framework: this
 operates on embeddings your pipeline has already computed.
 
 ## Use
